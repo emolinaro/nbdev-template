@@ -9,8 +9,9 @@ Use this template to create nbdev projects.
 
 ## Update project settings
 
-Edit the mandatory fields in the file `settings.ini`. Once the file `settings.ini` is updated, run the command:
+Edit the mandatory fields in the file `settings.ini`. Once the file `settings.ini` is updated, run the commands:
 ```bash
+nbdev_install_git_hooks
 nbdev_build_lib
 ```
 A new folder is created with the name specified by the `lib_name` field in `settings.ini`. 
