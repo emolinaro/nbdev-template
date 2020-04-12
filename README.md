@@ -32,8 +32,4 @@ The file `nbs/index.ipynb` is converted into the project _README_ file. To creat
 ```bash
 nbdev_build_docs
 ```
-This will export HTML versions of the notebooks collected in the `nbs` folder to the `docs` directory, and will create hyperlinks for any words in backticks (as long as they exist in your module). It will also create a menu for all notebooks you have created, and a table of contents for each.
-
-
-
-
+This will export HTML versions of the notebooks located in the `nbs` folder to the `docs` directory, and will create hyperlinks for any words in backticks (as long as they exist in your module). It will also create a menu for all notebooks you have created, and a table of contents for each.
